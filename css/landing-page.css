@@ -1,0 +1,269 @@
+/*
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 5em;
+    letter-spacing: 4px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+
+    /*font-weight: 500;*/
+    font-size: 3em;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+b{
+    font-weight: 900;
+    color: black;
+}
+
+.topnav {
+    font-size: 16px;
+/*    background: none;*/
+    border: none;
+}
+
+
+/*.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}*/
+
+.lead {
+    font-size:18px;
+    font-weight: 400;
+    color: black;
+    text-transform: capitalize;
+}
+
+.intro-header {
+    padding-top: 10px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+/*    padding-bottom: 50px;*/
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/pdx.jpg) no-repeat center center;
+    opacity: 80%;
+    background-size:cover;
+    margin: 20px;
+}
+.intro-header a:link, a:visited {
+  color: white;
+}
+
+.about-intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/intro-bg.jpg) no-repeat center center;
+    opacity: 80%;
+    background-size: cover;
+    border: none;
+}
+
+.well {
+	background-color: RGBA(60, 70, 80, 0.5);
+	border: none;
+}    border: none;
+
+
+.well .h4 {
+    font-size: 200%;
+}
+
+.intro-message {
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+/*        padding-bottom: 15%;*/
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.headshot {
+    max-height: 200px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+    margin: 20px;
+}
+
+a, a:visited {
+  color: currentColor;
+}
+
+.left-col {
+  text-align: center;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    background-color: RGBA(60, 70, 80, 0.15);
+    margin: 20px;
+/*
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+*/
+}
+
+.section-heading {
+margin-top: none;
+}
+
+.section-heading h1,
+h2,
+h3,
+h4
+{
+   font-family: 'Raleway', sans-serif;
+
+    /*font-weight: 500;*/
+    font-size: 1.5em;
+    margin-top: auto;
+}
+
+.sub-heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin: 3px;
+}
+
+.social {
+  max-height: 30px;
+}
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    margin: 20px;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
