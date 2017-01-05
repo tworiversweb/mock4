@@ -218,8 +218,9 @@ a, a:visited {
 
 .content-section-b {
     padding: 50px 0;
-    background-color: RGBA(60, 70, 80, 0.15);
+    background-color: #0b3c5d;
     margin: 20px;
+    color: gold;
 /*
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
