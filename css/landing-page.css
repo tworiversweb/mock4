@@ -63,15 +63,14 @@ b{
 }
 
 .intro-header {
-    padding-top: 10px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-/*    padding-bottom: 50px;*/
+    padding-top: 10px;
     text-align: center;
     color: #f8f8f8;
     background: url(../img/reflection2.jpg) no-repeat center center;
     opacity: 80%;
     background-size:cover;
-    margin: 20px;
 }
+
 .intro-header a:link, a:visited {
   color: white;
 }
@@ -90,8 +89,7 @@ b{
 .well {
 	background-color: rgba(6, 29, 45, 0.41);
 	border: none;
-}    border: none;
-
+}
 
 .well .h4 {
     font-size: 200%;
@@ -207,14 +205,31 @@ b{
     max-height: 200px;
 }
 
+.content-section-c {
+    color: #f8f8f8;
+    background: url(../img/reflection2.jpg) no-repeat center center;
+    opacity: 80%;
+    background-size:cover;
+    padding: 30px 0;
+}
+
+.well2 {
+    background-color: rgba(20, 50, 70, 0.75);
+}
+
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
-    margin: 20px;
+/*    margin: 20px;*/
+}
+
+.content-section-a a:visited, a {
+    color: black;
+    text-decoration: underline;
 }
 
 a, a:visited {
-  color: #0b3c5d;
+  color: #f8f8f8;
 }
 
 .left-col {
@@ -223,9 +238,9 @@ a, a:visited {
 
 .content-section-b {
     padding: 50px 0;
-    background-color: #0b3c5d;
-    margin: 20px;
-    color: gold;
+    background-color: #1c5377;
+/*    margin: 20px;*/
+    color: #f8f8f8;
 /*
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
@@ -312,7 +327,6 @@ h4
 
 footer {
     padding: 50px 0;
-    margin: 20px;
     background-color: #f8f8f8;
 }
 
