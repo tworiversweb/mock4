@@ -361,3 +361,10 @@ p.copyright {
     margin-bottom: 20px;
     padding: none;
 }
+
+.fee-header {
+    font-size: 1.3em;;
+    text-align: center;
+    line-height: 150%;
+
+}
