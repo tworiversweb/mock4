@@ -21,9 +21,7 @@ h1 {
 
 h2,
 h3,
-h4,
-h5,
-h6 {
+{
     font-family: 'Raleway', sans-serif;
 
     /*font-weight: 500;*/
@@ -116,6 +114,13 @@ b{
 .intro-message2 {
     font-family: 'Raleway', sans-serif;
     position: relative;
+}
+
+.ooo{
+    color: gold;
+    font-weight: 700;
+    background: RGBA(4, 20, 35, 0.40);
+    border-radius: 10px;
 }
 
 .logo {
@@ -254,7 +259,6 @@ margin-top: none;
 .section-heading h1,
 h2,
 h3,
-h4
 {
    font-family: 'Raleway', sans-serif;
 
@@ -366,5 +370,6 @@ p.copyright {
     font-size: 1.3em;;
     text-align: center;
     line-height: 150%;
-
 }
+
+
