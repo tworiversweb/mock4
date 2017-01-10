@@ -335,8 +335,16 @@ h4
 
 .well3 {
     background-color: rgba(20, 50, 70, 0.75);
+    background-size: cover;
     margin: 50px;
+}
 
+.building {
+    padding: 20px;
+    background-image: url(../img/gus.jpg);
+    background-size: cover;
+    min-height: 400px;
+    margin-bottom: 30px;
 }
 
 footer {
