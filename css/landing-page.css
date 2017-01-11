@@ -91,7 +91,7 @@ a, a:visited {
 }
 
 .well {
-	background-color: rgba(6, 29, 45, 0.41);
+	background-color: rgba(4, 20, 30, 0.85);
 	border: none;
 }
 
@@ -225,13 +225,13 @@ a, a:visited {
 }
 
 .well2 {
-    background-color: rgba(20, 50, 70, 0.75);
+    background-color: rgba(4, 20, 30, 0.95);
 }
 
 .content-section-a {
     padding: 50px 0;
     color: black;
-    background-color: #f8f8f8;
+    background-color: rgba(190, 215, 230, 0.3);
 }
 
 .left-col {
@@ -240,7 +240,7 @@ a, a:visited {
 
 .content-section-b {
     padding: 50px 0;
-    background-color: #1c5377;
+    background-color: rgba(10, 30, 65, 0.7);
 /*    margin: 20px;*/
     color: #f8f8f8;
 /*
@@ -335,7 +335,7 @@ h3,
 }
 
 .well3 {
-    background-color: rgba(20, 50, 70, 0.75);
+    background-color: rgba(4, 20, 30, 0.95);
     background-size: cover;
     margin: 50px;
 }
