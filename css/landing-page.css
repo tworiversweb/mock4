@@ -38,6 +38,7 @@ b{
     color: black;
 }
 
+
 .topnav {
     font-size: 16px;
     background-color: none;
@@ -71,6 +72,11 @@ b{
 
 .intro-header a:link, a:visited {
   color: white;
+}
+
+a, a:visited {
+    color: inherit;
+    text-decoration: underline;
 }
 
 .about-intro-header {
@@ -224,17 +230,8 @@ b{
 
 .content-section-a {
     padding: 50px 0;
-    background-color: #f8f8f8;
-/*    margin: 20px;*/
-}
-
-.content-section-a a:visited, a {
     color: black;
-    text-decoration: underline;
-}
-
-a, a:visited {
-  color: #f8f8f8;
+    background-color: #f8f8f8;
 }
 
 .left-col {
